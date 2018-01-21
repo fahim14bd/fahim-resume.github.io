@@ -1,0 +1,286 @@
+#container {
+    width: 952px;
+    height: 500px;
+    margin: 65px auto;
+    background-color: #ebebeb;
+}
+#banner {
+    width: 952px;
+    height: 122px;
+    background-color: #dddddd;
+}
+.logo {
+    float: left;
+    text-align: center;
+    width: 130px;
+    height: 122px;
+}
+.border {
+    padding: 10px;
+}
+.border img {
+    width: 100px;
+    height: 100px;
+    border: 0px solid black;
+    border-radius: 75px;
+}
+img {
+    
+}
+.name-title {
+    float: left;
+    width: 540px;
+    height: 122px;
+}
+#name {
+    padding: 35px 0px;
+    color: #191919;
+    font-family: arial;
+}
+.social {
+    float: right;
+    width: 282px;
+    height: 122px;
+}
+#social-link {
+    padding: 25px 18px;
+}
+a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-family: time;
+}
+a:hover {
+    text-decoration: none;
+    color: #1d00ff;
+    font-family: time;
+}
+#nav {
+    width: 952px;
+    height: auto;
+    background-color: #d6d6d6;
+}
+.menu {
+    width: 338px;
+    margin: 0 auto;
+}
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d6d6d6;
+}
+#nav li {
+    float: left;
+}
+#nav li a {
+    display: block;
+    color: #101010;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color: #9d9d9d;
+}
+#main {
+    width: 952px;
+    height: 316px;
+}
+#a-left {
+    float: left;
+    width: 300px;
+    height: 316px;
+}
+.about-text-1 {
+    color: #191919;
+    font-family: arial;
+    font-size: 20px;
+    padding: 130px 62px;
+}
+#a-right {
+    float: right;
+    width: 652px;
+    height: 316px;
+}
+.about-text-2 {
+    color: #191919;
+    font-family: time;
+    text-align: justify;
+    padding: 50px 10px;
+}
+#left {
+    float: left;
+    width: 300px;
+    height: 316px;
+}
+.work-text-1 {
+    color: #191919;
+    font-family: arial;
+    font-size: 20px;
+    padding: 140px 62px;
+}
+#right {
+    float: right;
+    width: 652px;
+    height: 316px;
+}
+.work-text-2 {
+    color: #191919;
+    font-family: time;
+    text-align: justify;
+    padding: 30px 0px;
+}
+#r-left {
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.resume-text-1 {
+    color: #191919;
+    font-family: arial;
+    font-size: 20px;
+    padding: 84px 95px;
+}
+#r-right {
+    float: right;
+    width: 652px;
+    height: 200px;
+}
+.resume-text-2 {
+    color: #191919;
+    font-family: time;
+    text-align: justify;
+    padding: 4px 30px;
+}
+#margin {
+    width: 900px;
+    margin: 0 auto;
+}
+#s-left {
+    float: left;
+    width: 300px;
+    height: 105px;
+}
+.skill-text-1 {
+    color: #191919;
+    font-family: arial;
+    font-size: 20px;
+    padding: 30px 95px;
+}
+#s-right {
+    float: right;
+    width: 652px;
+    height: 105px;
+    margin: -10px;
+}
+.skill-text-2 {
+    color: #191919;
+    font-family: time;
+    text-align: justify;
+    padding: 0px 18px;
+}
+#c-left {
+    float: left;
+    width: 300px;
+    height: 316px;
+}
+.contact-text-1 {
+    color: #191919;
+    font-family: arial;
+    font-size: 20px;
+    padding: 140px 105px;
+}
+#c-right {
+    float: right;
+    width: 652px;
+    height: 316px;
+}
+#padding {
+    padding: 20px 0px;
+}
+.name {
+    float: left;
+    margin: 0;
+    padding: 1px 0px;
+}
+.name input {
+    width: 370px;
+    height: 28px;
+    color: #141414;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: 0px solid #ebebeb;
+    background-color: #b5b5b5;
+}
+.email {
+    float: left;
+    margin: 0;
+    padding: 1px 0px;
+}
+.email input {
+    width: 370px;
+    height: 28px;
+    color: #141414;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: 0px solid #ebebeb;
+    background-color: #b5b5b5;
+}
+.subject {
+    float: left;
+    margin: 0;
+    padding: 1px 0px;
+}
+.subject input {
+    width: 370px;
+    height: 28px;
+    color: #141414;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: 0px solid #ebebeb;
+    background-color: #b5b5b5;
+}
+.message {
+    float: left;
+    margin: 0;
+    padding: 1px 0px;
+}
+.message textarea {
+    width: 366px;
+    height: 140px;
+    color: #141414;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: 0px solid #ebebeb;
+    background-color: #b5b5b5;
+}
+.button {
+    float: left;
+    width: 366px;
+    margin: 0;
+    padding: 1px 0px;
+}
+.button button {
+    background-color: #313131;
+    color: #ededed;
+    font-family: sans-serif;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+.button button:hover {
+    background: #2a2a2a;
+}
+#bottom {
+    width: 952px;
+    height: 48px;
+    background-color: #d6d6d6;
+}
+.footer {
+    font-family: time;
+    color: #191919;
+    text-align: center;
+    padding: 1px;
+}
